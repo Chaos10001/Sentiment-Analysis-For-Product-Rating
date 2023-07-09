@@ -1,0 +1,29 @@
+.welcome {
+  .hero {
+    width: 32rem;
+    margin: 1rem auto;
+    height: 36rem;
+    border-radius: 10px;
+
+    h1 {
+      font-family: cursive;
+      // line-height: 4rem;
+      // color: ;
+      font-size: 30px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .welcome {
+    .hero {
+      height: 31rem;
+      margin: 1rem auto;
+      width: 13rem;
+
+      h1 {
+        // color: ;
+        font-size: 23px;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.signup {
+  height: 100vh;
+  h1 {
+    color: #06bbcc;
+    margin: 9rem 0 1rem 0;
+    font-family: sans-serif;
+  }
+
+  input {
+    height: 40px;
+    width: 23rem !important;
+    border-radius: 5px;
+    color: black;
+    margin: auto;
+  }
+  &::placeholder {
+    color: lightgray;
+  }
+  small {
+    color: #06bbcc;
+  }
+  span {
+    color: lightgray;
+  }
+  b {
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    transition: 0.6s all ease-in;
+
+    &:hover{
+      color: #06bbcc;
+
+    }
+  }
+}
